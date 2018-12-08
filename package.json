@@ -1,7 +1,7 @@
 {
   "name": "webpack-boilerplate",
   "version": "1.0.0",
-  "description": "Starting code for webpack projects",
+  "description": "Simple boilerplate including Yarn, webpack, Babel, ESLint, Sass, and different loaders and linters",
   "main": "index.js",
   "repository": "https://github.com/gabrielecanepa/webpack-boilerplate",
   "author": "Gabriele Canepa <gabriele@canepa.io>",
