@@ -10,7 +10,7 @@ yarn install && yarn upgrade
 stt
 ```
 
-Make sure you have `./node_modules/.bin` in your `$PATH`! This way you can run:
+Make sure you have `./node_modules/.bin` in your `$PATH` - this way you can run:
 
 ```bash
 webpack-dev-server
