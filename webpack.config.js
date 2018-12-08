@@ -7,12 +7,12 @@ module.exports = {
   entry: ["./javascripts/index.js", "./stylesheets/index.scss"],
   output: {
     path: __dirname,
-    filename: "script.js"
+    filename: "./script.js"
   },
   plugins: [
     new MiniCssExtractPlugin({
       path: __dirname,
-      filename: "style.css"
+      filename: "./style.css"
     })
   ],
   module: {
