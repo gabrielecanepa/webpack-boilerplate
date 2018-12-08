@@ -1,7 +1,9 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
+const devMode = process.env.NODE_ENV !== "production";
+
 module.exports = {
-  mode: process.env.NODE_ENV === "production" ? "production" : "development",
+  mode: devMode ? "development" : "production",
   entry: ["./javascripts/index.js", "./stylesheets/index.scss"],
   output: {
     filename: "script.js"
@@ -21,7 +23,7 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          process.env.NODE_ENV !== "production" ? "style-loader" : MiniCssExtractPlugin.loader,
+          MiniCssExtractPlugin.loader,
           "css-loader",
           "sass-loader"
         ]
