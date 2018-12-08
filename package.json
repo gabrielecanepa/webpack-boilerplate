@@ -1,0 +1,28 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Starting code for webpack projects",
+  "main": "index.js",
+  "repository": "https://github.com/gabrielecanepa/webpack-boilerplate",
+  "author": "Gabriele Canepa <gabriele@canepa.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.0.0",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "stylelint": "^9.9.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.4.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
