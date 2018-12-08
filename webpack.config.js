@@ -6,10 +6,12 @@ module.exports = {
   mode: devMode ? "development" : "production",
   entry: ["./javascripts/index.js", "./stylesheets/index.scss"],
   output: {
+    path: __dirname,
     filename: "script.js"
   },
   plugins: [
     new MiniCssExtractPlugin({
+      path: __dirname,
       filename: "style.css"
     })
   ],
