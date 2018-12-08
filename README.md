@@ -6,7 +6,7 @@ First clone this repository to your laptop. You must have Node (> v4) and [yarn]
 git clone git@github.com:gabrielecanepa/webpack-boilerplate.git my-project
 cd my-project
 rm -rf .git
-yarn install
+yarn install && yarn upgrade
 stt
 ```
 
