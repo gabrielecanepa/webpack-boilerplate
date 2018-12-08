@@ -25,4 +25,4 @@ webpack-dev-server
 5. Create new Pull Request
 
 ## License
-[![](https://raw.githubusercontent.com/gabrielecanepa/images/master/mit-badge.svg)](https://gabriele.canepa.io/mit)
+[![](https://raw.githubusercontent.com/gabrielecanepa/ajax-dictionary-search/master/img/badge.svg)](https://gabriele.canepa.io/mit)
