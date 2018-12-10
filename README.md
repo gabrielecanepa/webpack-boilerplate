@@ -3,7 +3,7 @@
 > 💡 Want to be able to run a new, up-to-date boilerplate with a command as simple as `webpack:init`?
 > Check out [webpack-init](https://github.com/gabrielecanepa/webpack-init), and bootstrap a new webpack project in seconds!
 
-First clone the repository on your computer. You must have [Node.js](https://nodejs.org) (> v4) and [Yarn](https://yarnpkg.com/lang/en/docs/install) installed:
+Clone the repository on your computer. You must have [Node.js](https://nodejs.org) (> v4) and [Yarn](https://yarnpkg.com/lang/en/docs/install) installed:
 
 ```bash
 git clone git@github.com:gabrielecanepa/webpack-boilerplate.git my-project
