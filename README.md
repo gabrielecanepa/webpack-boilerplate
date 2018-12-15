@@ -6,8 +6,8 @@
 Clone the repository on your computer. You must have [Node.js](https://nodejs.org) (> v4) and [Yarn](https://yarnpkg.com/lang/en/docs/install) installed:
 
 ```bash
-git clone git@github.com:gabrielecanepa/webpack-boilerplate.git my-project
-cd my-project
+git clone git@github.com:gabrielecanepa/webpack-boilerplate.git my-webpack-project
+cd my-webpack-project
 rm -rf .git
 yarn install && yarn upgrade
 ```
@@ -28,4 +28,4 @@ webpack-dev-server
 
 ## License
 
-[![MIT license](https://github.com/gabrielecanepa/assets/raw/master/badges/mit.svg?sanitize=true)](https://gabriele.canepa.io/mit)
+[![MIT license](https://github.com/gabrielecanepa/assets/raw/master/badges/mit.svg)](https://gabriele.canepa.io/mit)
