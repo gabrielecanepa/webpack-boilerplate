@@ -9,7 +9,7 @@ Clone the repository on your computer. You must have [Node.js](https://nodejs.or
 git clone git@github.com:gabrielecanepa/webpack-boilerplate.git my-webpack-project
 cd my-webpack-project
 rm -rf .git
-yarn install && yarn upgrade
+yarn install
 ```
 
 Make sure you have `./node_modules/.bin` in your `$PATH`. This way you can run your server with:
