@@ -3,7 +3,7 @@ const Dotenv = require("dotenv-webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+const UglifyJSPlugin = require("uglifyjs-webpack-plugin");
 const packageJSON = require("./package.json");
 
 const devMode = process.env.NODE_ENV !== "production";
@@ -18,7 +18,7 @@ module.exports = {
   optimization: {
     minimizer: [
       new OptimizeCSSAssetsPlugin({}),
-      new UglifyJsPlugin({
+      new UglifyJSPlugin({
         cache: true,
         parallel: true,
         sourceMap: true
@@ -45,8 +45,8 @@ module.exports = {
       }
     }),
     new MiniCssExtractPlugin({
-      filename: devMode ? "style.css" : "style.[hash].css",
-      chunkFilename: devMode ? "[id].css" : "[id].[hash].css",
+      filename: "style.css",
+      chunkFilename: "[id].css"
     })
   ],
   module: {
@@ -58,8 +58,9 @@ module.exports = {
       },
       {
         test: /\.(sa|sc|c)ss$/,
+        exclude: /(node_modules)/,
         use: [
-          MiniCssExtractPlugin.loader,
+          devMode ? "style-loader" : MiniCssExtractPlugin.loader,
           "css-loader",
           "sass-loader"
         ]
