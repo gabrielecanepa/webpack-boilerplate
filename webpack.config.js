@@ -10,7 +10,10 @@ const devMode = process.env.NODE_ENV !== "production";
 
 module.exports = {
   mode: devMode ? "development" : "production",
-  entry: ["./javascripts/index.js", "./stylesheets/index.scss"],
+  entry: [
+    "./javascripts/index.js",
+    "./stylesheets/index.scss"
+  ],
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "script.js"
@@ -83,7 +86,10 @@ module.exports = {
       {
         test: /\.(jpg|png|gif|svg)$/,
         loader: "image-webpack-loader",
-        enforce: "pre"
+        enforce: "pre",
+        options: {
+          disable: true
+        }
       }
     ]
   }
