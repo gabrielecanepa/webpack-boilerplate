@@ -5,7 +5,8 @@
 *.cache
 *.log
 *.lock
-bin/
-build/
-dist/
-node_modules/
+package-lock.json
+bin
+build
+dist
+node_modules
