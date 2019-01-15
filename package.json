@@ -33,6 +33,6 @@
     "start": "webpack-dev-server --mode development",
     "lint": "eslint ./src/**/*.js* && stylelint ./assets/stylesheets/**/*.*css",
     "build": "webpack -p --bail",
-    "deploy": "webpack -p && gh-pages -d dist"
+    "deploy": "gh-pages -d dist -m 'Automated deploy by gh-pages'"
   }
 }
