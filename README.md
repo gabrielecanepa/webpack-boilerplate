@@ -1,4 +1,4 @@
-# webpack-boilerplate
+# Webpack boilerplate
 
 Simple webpack starter with the following configuration:
 
@@ -39,19 +39,19 @@ To start a local server on port `8080`:
 yarn start
 ```
 
-To lint all your JavaScript and SCSS files:
+To lint all your JavaScript and CSS/SCSS files:
 
 ```bash
 yarn lint
 ```
 
-To build your application:
+To build your static files:
 
 ```bash
 yarn build
 ```
 
-To deploy the built files to the `gh-pages` branch on your GitHub repository:
+To push the built files to the `gh-pages` branch and deploy on [GitHub Pages](https://pages.github.com):
 
 ```bash
 yarn deploy
