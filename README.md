@@ -64,7 +64,3 @@ yarn deploy
 3.  Commit your changes (`git commit -m "Add some feature"`)
 4.  Push to the branch (`git push origin my-new-feature`)
 5.  Create a new pull request
-
-## License
-
-[![MIT license](https://github.com/gabrielecanepa/assets/raw/master/badges/mit.svg?sanitize=true)](https://gabriele.canepa.io/mit)
