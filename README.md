@@ -1,4 +1,4 @@
-# Webpack boilerplate
+# Webpack Boilerplate
 
 Simple webpack starter with the following configuration:
 
@@ -7,7 +7,7 @@ Simple webpack starter with the following configuration:
 -   [Babel](https://babeljs.io) with [the latest preset](https://babeljs.io/docs/en/babel-preset-env)
 -   [ESLint](https://eslint.org)
 -   [Sass](http://sass-lang.com) with [stylelint](https://stylelint.io) and modules import to enjoy hot reloading
--   [gh-pages](https://www.npmjs.com/package/gh-pages) to easily deploy to GitHub Pages
+-   [GitHub Pages](https://www.npmjs.com/package/gh-pages) to easily deploy the static pages
 
 ## Usage
 
@@ -17,8 +17,7 @@ Clone the repository on your computer. You must have [Node.js](https://nodejs.or
 git clone git@github.com:gabrielecanepa/webpack-boilerplate.git my-project
 cd my-project
 rm -rf .git
-yarn install
-yarn upgrade
+yarn
 ```
 
 Make sure to have `./node_modules/.bin` in your `$PATH`. This way you can run your server with:
